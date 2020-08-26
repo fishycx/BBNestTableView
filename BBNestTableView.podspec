@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "BBNestScrollView.podspec"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of BBNestScrollView.podspec."
+  spec.name         = "BBNestTableView"
+  spec.version      = "1.0.0"
+  spec.summary      = "tableView的cell上嵌套多个tableView"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+   新闻咨询类，电商类App，经常有，tableView的cell上放一个segement，一个scollView，scollView上放置多个列表，该代码就是处理多个tableView滑动的问题
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/BBNestScrollView.podspec"
+  spec.homepage     = "https://github.com/fishycx/BBNestTableView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/BBNestScrollView.podspec.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/fishycx/BBNestTableView.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BBNestScrollView
+//  BBNestTableView
 //
 //  Created by fishycx on 2020/8/26.
 //  Copyright © 2020 fishycx. All rights reserved.
