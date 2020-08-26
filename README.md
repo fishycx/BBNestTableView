@@ -1,2 +1,2 @@
-# BBNestTableView
-UITableView上的cell上嵌套UITableView 滑动处理
+# BBNestScrollView
+tableView cell 嵌套   tableView
